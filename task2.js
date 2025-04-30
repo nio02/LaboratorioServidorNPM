@@ -10,16 +10,10 @@ export function listUsers(){
         }
     })
     .then(res => res.json())
-    // .then((data) => {
-    //     data
-    // })
+    
 }
 
-
-
-// console.log(listUsers());
-
-// listUsers().then(users => {
-//     console.log(users);
-// });
+listUsers().then(users => {
+    console.log(users);
+});
 
